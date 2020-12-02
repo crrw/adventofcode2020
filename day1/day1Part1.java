@@ -23,7 +23,6 @@ public class day1Part1 {
             else if(list.get(start) + list.get(end) < 2020) start++;
             else end--;
         }
-        
         return -1;
     }
 }
