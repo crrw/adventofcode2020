@@ -43,6 +43,4 @@ for i in range(0,n,2):
     y+=1
 last = cnt
 
-print(prevFound, first, second, third, last)
-print()
 print(first*second*third*last*prevFound)
